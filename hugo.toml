@@ -1,0 +1,4 @@
+baseURL = 'https://blogleo.org/'
+languageCode = 'fr-ca'
+title = 'Blog Léo'
+theme = 'papermod'
