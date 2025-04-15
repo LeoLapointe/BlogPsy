@@ -2,3 +2,7 @@ baseURL = 'https://leolapointe.github.io/blogsite/'
 languageCode = 'fr-ca'
 title = 'Blog Léo-Paul Lapointe 🍐'
 theme = 'hugo-bearblog'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
