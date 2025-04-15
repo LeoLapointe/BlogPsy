@@ -1,4 +1,4 @@
-baseURL = 'https://leolapointe.github.io/blogsite/'
+baseURL = 'https://leolapointe.github.io/BlogPsy/'
 languageCode = 'fr-ca'
 title = 'Blog Léo-Paul Lapointe 🍐'
 theme = 'hugo-bearblog'
