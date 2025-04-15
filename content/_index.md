@@ -1,7 +1,7 @@
 +++
-date = '2025-04-05T16:50:13-04:00'
-draft = false
-title = ''
+date = '2025-04-11T14:30:38-04:00'
 +++
+# Bienvenue sur mon Blog
 
-# Someting
+
+{{< figure src="grad.jpg" title="graduation 2024" >}}
