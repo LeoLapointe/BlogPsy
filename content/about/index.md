@@ -1,6 +1,6 @@
 +++
 title = "À propos"
-date = "2025-04-14T16:48:36-04:00"
+date = "2025-04-15T17:09:31-04:00"
 
 #
 # Set menu to "main" to add this page to
@@ -20,3 +20,4 @@ menu = "main"
 +++
 
 This is a page about »About«.
+{{< figure src="samus.png" title="Personnage" >}}
