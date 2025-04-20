@@ -6,6 +6,9 @@ content:
     path: content/blog
     type: collection
     exclude: [ _index.md ]
+    view:
+      fields: [ title, author, date ]
+      sort: [ date, title ]
     fields: 
       - name: title
         label: Title
