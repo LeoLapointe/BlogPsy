@@ -1,5 +1,6 @@
 ---
 title: On teste le cms
+date: 2025-04-20
 author: Mathilde
 ---
 # cool
