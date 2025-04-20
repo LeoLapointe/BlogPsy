@@ -1,5 +1,5 @@
 ---
-date: 2025-04-14T16:53:20-04:00
+date: 2025-04-14
 tags: []
 title: Premier Post
 author: leo
