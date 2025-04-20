@@ -6,14 +6,17 @@ content:
     path: content/blog
     type: collection
     fields: 
-      - name: title,
-        label: Title,
+      - name: title
+        label: Title
         type: string
-      - name: date,
-        label: Date,
-        type: date,
+      - name: date
+        label: Date
+        type: date
         options: 
           time: true
-      - name: body,
-        label: Body,
+      - name: author
+        label: Author
+        type: string
+      - name: body
+        label: Body
         type: rich-text
