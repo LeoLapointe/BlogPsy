@@ -5,6 +5,7 @@ content:
     label: Blog posts
     path: content/blog
     type: collection
+    exclude: [ _index.md ]
     fields: 
       - name: title
         label: Title
