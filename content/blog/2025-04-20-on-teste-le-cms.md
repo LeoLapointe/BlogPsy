@@ -7,4 +7,4 @@ author: Mathilde
 
 big c'est ben cool le cm mess
 
-![](/assets/images/samus.png)
+<p style="text-align: center"><img src="/assets/images/samus.png" alt="Samus"></p>
