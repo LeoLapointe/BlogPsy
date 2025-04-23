@@ -6,3 +6,5 @@ author: Mathilde
 # cool
 
 big c'est ben cool le cm mess
+
+![](/assets/images/samus.png)
