@@ -1,10 +1,10 @@
----
-title: On teste le cms
-date: 2025-04-20
-author: Mathilde
----
++++
+author = 'Mathilde'
+date = '2025-04-20T00:00:00.000Z'
+title = 'On teste le cms'
++++
+
 # cool
 
 big c'est ben cool le cm mess
-
-<p style="text-align: center"><img src="/assets/images/samus.png" alt="Samus"></p>
+![](/images/grad.jpg "bonjour")
