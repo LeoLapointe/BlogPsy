@@ -11,4 +11,4 @@ big c'est ben cool le cm mess
 
 ## Changements
 
-![](/images/samus.png)
+![](images/samus.png)
