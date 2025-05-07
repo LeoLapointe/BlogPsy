@@ -54,7 +54,6 @@ export default defineConfig({
             required: true,
             ui: {
               dateFormat: 'YY-MM-DD',
-              parse: (value) => value && value.format('YY-MM-DD'),
             }
           },
           {
