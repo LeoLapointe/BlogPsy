@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+{{ with .Resources.GetMatch "landscape.jpg" }}
+	{{ $img := .Fill "4032x1500 Center" }}
+	<img src="{{ $img.RelPermalink }}" alt="Calanque de Marseille" class="top-image" />
+{{ end }}
+
+<h1>Blog de découverte sur mon parcours en psychologie</h1>
+<hr/>
+
+<section class="nouveau">
+	<h3>Nouveautés</h3>
+	<content>
+		<div class="flex-distribute">
+			{{ .Content }}
+			{{ with resources.GetMatch .Params.featured}}
+			{{ $img := .Resize "x300 q100" }}
+			<img src="{{ $img.RelPermalink }}" alt="Featured image" width="{{ $img.Width }}" height="{{ $img.Height }}" />
+			{{ else }}
+			{{ errorf "Unable to locate %s in the assets directory" . }}
+			{{ end }}
+		</div>
+	</content>
+</section>
+
+<h4>Bonjour et bienvenue sur mon blog!! 🙂‍↕️</h4>
+<p>
+	Je me présente, Je m'appelle <strong>Léo-Paul Lapointe</strong>, j'ai un bac en génie logiciel et j'étudie actuellement la psychologie.
+	Je suis au milieu de ce changement de carrière et je me suis dit que je pourrais mettre à profit mes connaissances en informatique pour
+	un projet qui allie mes deux champs d'étude.
+</p>
+<p>
+	Chaque semaine je compte poster un article sur une quelque chose que j'ai appris dans mes cours pour approfondir la matière et l'intégrer
+	de façon créative.
+</p>
+
+{{ end }}

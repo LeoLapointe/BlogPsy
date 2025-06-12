@@ -1,6 +1,6 @@
 +++
-date = '2025-04-11T14:30:38-04:00'
+featured = 'images/samus.png'
 +++
-# Bienvenue sur mon Blog
 
-{{< figure src="images/grad.jpg" title="graduation 2024" >}}
+- Lancement du blog **!!**
+- Premier post sur [Hugo]({{% ref "blog/apprentissages-sur-hugo" %}})
