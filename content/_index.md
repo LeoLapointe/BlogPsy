@@ -1,5 +1,5 @@
 +++
-featured = 'images/samus.png'
+featured = 'images/nouveau.jpg'
 +++
 
 - Lancement du blog **!!**

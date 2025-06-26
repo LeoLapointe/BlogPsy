@@ -10,17 +10,14 @@
 
 <section class="nouveau">
 	<h3>Nouveautés</h3>
-	<content>
-		<div class="flex-distribute">
-			{{ .Content }}
-			{{ with resources.GetMatch .Params.featured}}
-			{{ $img := .Resize "x300 q100" }}
-			<img src="{{ $img.RelPermalink }}" alt="Featured image" width="{{ $img.Width }}" height="{{ $img.Height }}" />
-			{{ else }}
-			{{ errorf "Unable to locate %s in the assets directory" . }}
-			{{ end }}
-		</div>
-	</content>
+	<div class="flex-distribute">
+		{{ .Content }}
+		{{ with resources.GetMatch .Params.featured}}
+		<img src="{{ .RelPermalink }}" alt="Featured image" />
+		{{ else }}
+		{{ errorf "Unable to locate %s in the assets directory" . }}
+		{{ end }}
+	</div>
 </section>
 
 <h4>Bonjour et bienvenue sur mon blog!! 🙂‍↕️</h4>
